@@ -1,0 +1,236 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default */
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+      }
+
+      /* footer */
+      .footer .footer-middle .button{
+        width: calc(87px + 20px);
+        position: relative;
+      }
+
+      .footer .footer-middle .mail{
+        width: calc(100% - (87px + 20px + 20px + 3px));
+      }
+}
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+      }
+
+      .m-width45{
+        width: 45%;
+      }
+
+      .m-width48{
+        width: 48%;
+      }
+
+      /* scrollbar */
+      ::-webkit-scrollbar-thumb{
+        height: 85px;
+      }
+
+      /* chefs */
+      .chefs .content{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 25px;
+      }
+
+      .chefs .content{
+        justify-content: space-between;
+      }
+
+      /* contact */
+      .contact-info{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-between;
+    }
+
+    .contact-info .info{
+        width: calc( (100% / 2 ) - 15px );
+        flex-wrap: nowrap;
+        padding-right: 5px;
+    }
+
+    .contact-info .address .content{
+        max-width: 80%;
+    }
+
+    /* footer */
+    .footer .footer-middle{
+        order: 3;
+    }
+
+    .footer-top , .footer-bottom{
+        width: 48%;
+    }
+
+    .footer .footer-bottom .contact-information .location{
+        flex-wrap: nowrap;
+    }
+}
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) {
+    .l-width40{
+        width: 40%;
+    }
+
+    .l-width31{
+        width: 31.5%;
+    }
+
+    .container {
+        max-width: 960px;
+      }
+
+    /* scrollbar */
+    ::-webkit-scrollbar-thumb{
+        height: 125px;
+      }
+
+    /* header */
+    .header{
+        text-align: start;
+    }
+
+    .image-container{
+        order: 1;
+    }
+
+    .button-1{
+        border-start-start-radius: 0;
+    }
+
+    .header .container{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .buttons-container{
+        justify-content: flex-start;
+    }
+
+    /* contact */
+    .contact .form .name{
+        margin-right: 10px;
+    }
+
+    .contact .form .name , .contact .form .mail{
+        width: 49.2%;
+    }
+}
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+
+    .xl-width31{
+        width: 31.8;
+    }
+
+    /* nav */
+    .menu-icon{
+        display: none;
+    }
+    
+    .nav-links {
+        position: static; 
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+        order: -1;
+        transform: translateX(-130%);
+    }
+    
+    .nav ul {
+        flex-direction: row;
+        gap: 30px;
+        height: auto;
+        width: auto;
+    }
+
+    .nav i{
+        transform: translateX(100%);
+    }
+
+    .nav .nav-links .home{
+        color: var(--secondary-color);
+    }
+
+    .nav .nav-links a{
+        position: relative;
+        transition: all 0.6s;
+    }
+
+    .nav .nav-links .home::after{
+        content: '';
+        background-color: var(--primary-color);
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+    }
+
+    .nav .nav-links a:not(.home)::after{
+        content: '';
+        background-color: var(--primary-color);
+        width: 0;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        transition: all 0.5s;
+    }
+    
+    .nav .nav-links a:not(.home):hover::after {
+        width: 100%;
+    }
+
+    /* contact */
+    .contact .form{
+        width: 100%;
+    }
+
+    .contact .form form{
+        width: 100%;
+    }
+
+    .contact .form .name , .contact .form .mail{
+        width: 49.3%;
+    }
+
+    /* footer */
+    .footer .footer-top{
+        width: 23.5%;
+    }
+
+    .footer .footer-middle{
+        order: 0;
+        width: 50%;
+    }
+
+    .footer .footer-bottom{
+        width: 23.5%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }

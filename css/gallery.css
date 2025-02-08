@@ -1,0 +1,44 @@
+.gallery{
+    background-color: var(--section-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery .container{
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery h2{
+    margin-bottom: 25px;
+}
+
+.gallery h2 span{
+    color: var(--primary-color);
+}
+
+.gallery h2{
+    margin-bottom: 30px;
+}
+
+.gallery .image-container{
+    columns: 3 280px;
+    gap: 20px;
+}
+
+.gallery .image-container .image{
+    margin-bottom: 20px;
+    border: 4px white solid;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery .image-container .image img{
+    transition: all 0.4s;
+    display: block;
+    height: 100%;
+}
+
+.gallery .image-container .image:hover img{
+    scale: 1.1;
+}
