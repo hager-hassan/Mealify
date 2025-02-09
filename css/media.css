@@ -50,8 +50,8 @@
 
       /* contact */
       .contact-info{
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
         gap: 15px;
         justify-content: space-between;
     }
