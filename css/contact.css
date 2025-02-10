@@ -88,16 +88,16 @@
     align-items: center;
 }
 
-.contact .form input , .contact .form textarea{
+ input ,  textarea{
     border-radius: 0;
     width: 100%;
     margin-bottom: 15px;
     color: var(--secondary-color);
     padding: 15px;
-    /* border: solid 2px rgb(232, 227, 227); */
+    border: solid 2px rgb(232, 227, 227);
     /* border-color: rgb(232, 227, 227); */
-    border-width: 2px;
-    border-style: solid;
+    /* border-width: 2px; */
+    /* border-style: solid; */
     outline: none;
     transition: all 0.4s;
 }
