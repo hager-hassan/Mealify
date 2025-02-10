@@ -10,6 +10,7 @@
     --secondary-color:rgb(33, 37, 41);
     --contact:rgb(125, 125, 125);
     --section-color-2:white;
+    scroll-behavior: smooth;
     /* font-size: 16px; */
 }
 
