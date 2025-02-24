@@ -1,0 +1,158 @@
+
+.inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* weight */
+
+.light-font {
+  font-weight: 300;
+}
+
+.regular-font {
+  font-weight: 400;
+}
+
+.medium-font {
+  font-weight: 500;
+}
+
+.semiBold-font {
+  font-weight: 600;
+}
+
+.bold-font {
+  font-weight: 700;
+}
+
+.extra-bold-font {
+  font-weight: 800;
+}
+
+.extra2-bold-font{
+  font-weight: 900;
+}
+
+/* size */
+
+.size-13{
+  font-size: 13px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.size-15 {
+  font-size: 15px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.size-17{
+  font-size: 17px;
+}
+
+.size-18{
+  font-size: 18px;
+}
+
+.size-19{
+  font-size: 19px;
+}
+
+.size-20{
+  font-size: 20px;
+}
+
+.size-24 {
+  font-size: 24px;
+}
+
+.size-25{
+  font-size: 25px;
+}
+
+.size-26 {
+  font-size: 26px;
+}
+
+.size-30{
+  font-size: 30px;
+}
+
+.size-34 {
+  font-size: 34px;
+}
+
+.size-50 {
+  font-size: 50px;
+}
+
+.size-65 {
+  font-size: 65px;
+}
+
+/* line-height */
+
+.line-height-16 {
+  line-height: 16px;
+}
+
+.line-height-17 {
+  line-height: 17px;
+}
+
+.line-height-18 {
+  line-height: 18px;
+}
+
+.line-height-20 {
+  line-height: 20px;
+}
+
+.line-height-22 {
+  line-height: 22px;
+}
+
+.line-height-24 {
+  line-height: 24px;
+}
+
+.line-height-25 {
+  line-height: 25px;
+}
+
+.line-height-26 {
+  line-height: 26px;
+}
+
+.line-height-29 {
+  line-height: 29px;
+}
+
+.line-height-30 {
+  line-height: 30px;
+}
+
+.line-height-31 {
+  line-height: 31px;
+}
+
+.line-height-38 {
+  line-height: 38px;
+}
+
+.line-height-77 {
+  line-height: 77px;
+}
+
+/* style */
+ .italic{
+  font-style: italic;
+ }

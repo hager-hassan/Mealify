@@ -1,0 +1,89 @@
+.header{
+    background-color: var(--section-color);
+    text-align: center;
+    min-height: 100vh;
+}
+
+.header .image-container img{
+    filter: drop-shadow(4px 4px 9px #000a);
+}
+
+.header .container{
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.header .image-container img:hover {
+    animation: shake 1s infinite;
+}
+
+.header h2{
+    color: var(--accent-color);
+    padding: 50px 0px 20px;
+}
+
+.header p{
+    color: var(--accent-color2);
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; 
+}
+
+.button-1, .button-2 {
+    display: flex;
+    align-items: center;
+}
+
+.button-1{
+    padding: 10px 25px; 
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.button-1 a{
+    color: var(--basic-color);
+}
+
+.button-1:hover{
+    background-color: var(--primary-hover);
+}
+
+.button-2 .parent{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(90deg , var(--primary-color) 0% 50% , transparent 50% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-btn {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    background-color: var(--basic-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-2 a{
+    color: var(--basic-color-reverse);
+    transition: all 0.5s;
+}
+
+.button-2 a:hover{
+    color: var(--primary-color);
+}
